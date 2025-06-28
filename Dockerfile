@@ -1,4 +1,4 @@
-FROM 3.12.11-bullseye
+FROM 3.9-slim
 
 WORKDIR /app
 
