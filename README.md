@@ -70,3 +70,6 @@ terraform init
 terraform apply
 
 3. Deploy Argo CD to Minikube
+Follow Argo CD installation instructions: https://argo-cd.readthedocs.io/en/stable/getting_started/
+
+Apply the Argo CD app:
