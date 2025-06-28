@@ -82,3 +82,8 @@ Reference:
 youtube video link: https://youtu.be/HBRQJtqKh3U
 
 
+kubectl create secret docker-registry regcred \
+  --docker-username=thiexco \
+  --docker-password=dckr_pat_Trt3P1J3UrAmnMLh4d78uB8bPhc \
+  --docker-email=thiexco@gmx.com \
+  -n argocd
