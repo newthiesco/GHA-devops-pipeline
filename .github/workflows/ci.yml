@@ -39,11 +39,7 @@ jobs:
 
       - name: Update Helm Chart with new image tag
         run: |
-          sed -i "s/tag: .*/tag: $SHORT_SHA/" ./complete-devops-project-time-printer/values.yaml
-
-          # helm upgrade --install complete-devops-project ./helm/complete-devops-project \
-          #   --set image.repository=thiexco/complete-devops-project \
-          #   --set image.tag=$SHORT_SHA \
-          #   --namespace complete-devops-project \
-          #   --create-namespace
-
+          sed -i "s/tag:.*/tag: $SHORT_SHA/" ./complete-devops-project-time-printer/values.yaml
+          git add .
+          git commit -m "Update Helm chart with new image tag $SHORT_SHA"
+          git push origin main
