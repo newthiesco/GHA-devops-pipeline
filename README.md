@@ -73,3 +73,12 @@ terraform apply
 Follow Argo CD installation instructions: https://argo-cd.readthedocs.io/en/stable/getting_started/
 
 Apply the Argo CD app:
+
+
+
+
+
+Reference: 
+youtube video link: https://youtu.be/HBRQJtqKh3U
+
+
