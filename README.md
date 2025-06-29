@@ -1,6 +1,8 @@
 # GHA-devops-pipeline
 # 🛠️ Fully Automated DevOps Pipeline: Flask App on Kubernetes
 
+**Reference:** [YouTube Video](https://youtu.be/HBRQJtqKh3U)
+
 This project demonstrates a **fully automated DevOps pipeline** for a simple Python Flask application. The goal is to showcase **real-world DevOps practices** with a strong emphasis on **automation**, **GitOps**, and **Kubernetes best practices** using modern tools such as GitHub Actions, Docker, Terraform, Helm, and Argo CD.
 
 ---
@@ -114,6 +116,9 @@ Add monitoring (Prometheus/Grafana)
 Inspired by modern DevOps practices and the power of open-source tools.
 
 
-**Reference:** [YouTube Video](https://youtu.be/HBRQJtqKh3U)
+
+
+
+
 
 
