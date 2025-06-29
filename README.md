@@ -74,8 +74,44 @@ Follow Argo CD installation instructions: https://argo-cd.readthedocs.io/en/stab
 
 Apply the Argo CD app:
 
+Follow Argo CD installation instructions: https://argo-cd.readthedocs.io/en/stable/getting_started/
+
+Apply the Argo CD app:
+kubectl apply -f argo-app.yaml
+
+4. Commit Code to Trigger GitHub Actions
+Once you push changes, the GitHub Actions pipeline will:
+
+Build and push Docker image
+
+Update Helm chart
+
+Trigger Argo CD sync to deploy the app
 
 
+✅ Key Highlights
+🔁 GitOps: Application state managed through Git.
+
+🧪 Automation: Full CI/CD pipeline using GitHub Actions.
+
+🧱 IaC: Minikube provisioned using Terraform.
+
+🐳 Dockerized: Production-grade Docker setup.
+
+📦 Helm: Reusable Helm charts for versioned deployments.
+
+🚀 Argo CD: Continuous deployment with real-time sync.
+
+
+🧪 Future Enhancements
+Integrate unit/integration tests
+
+Add secrets management (e.g., Sealed Secrets or External Secrets)
+
+Add monitoring (Prometheus/Grafana)
+
+🙌 Acknowledgements
+Inspired by modern DevOps practices and the power of open-source tools.
 
 
 Reference: 
