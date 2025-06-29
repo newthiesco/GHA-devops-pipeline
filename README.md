@@ -114,7 +114,6 @@ Add monitoring (Prometheus/Grafana)
 Inspired by modern DevOps practices and the power of open-source tools.
 
 
-Reference: 
-youtube video link: https://youtu.be/HBRQJtqKh3U
+**Reference:** [YouTube Video](https://youtu.be/HBRQJtqKh3U)
 
 
